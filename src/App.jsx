@@ -2,10 +2,14 @@ import { CardComponent } from "./components/CardComponent";
 import { NavbarComponent } from "./components/NavbarComponent";
 import FooterComponent from "./components/FooterComponent";
 import { ProfileComponent } from "./components/ProfileComponent";
+import FormComponent from "./components/FormComponent";
 
 function App() {
   return (
     <div className="flex flex-col justify-between items-center h-screen w-full ">
+      <div className="my-10 w-[500px] ">
+      <FormComponent />
+      </div>
       <div className="text-2xl uppercase text-green-500">Get all Products with validation in visual Dom</div>
       <NavbarComponent />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-5 bg-gray-100 ">
